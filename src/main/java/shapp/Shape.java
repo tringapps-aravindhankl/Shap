@@ -79,6 +79,7 @@ public class Shape
 	 private static Scanner scan;
 		public static void main( String[] args){
 	    	int option;
+	        Logger log=Logger.getLogger("hi");
 	        scan = new Scanner(System.in);
 	        do {
 	            System.out.println("Enter your option 1.Triangle 2.circle 3.Rectangle 4.Exit");
