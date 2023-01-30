@@ -1,12 +1,13 @@
 package shapp;
 import java.util.*;
+import java.util.logger.*;
 class Shap {
     float length;
     float width;
     float radius;
     float length1;
     String type;
-
+    Logger log=Logger.getLogger("hi");
     // triangle
     Shap(String type, float width, float length, float length1) {
         this.type = type;
@@ -34,7 +35,7 @@ class Shap {
         if ("TRIANGLe".equalsIgnoreCase(type)) {
             float area = width * length;  
             area = area / 2;
-            System.out.println("area of triangle is" + area);
+            log.info("area of triangle is" + area);
         }
 
         // circle
