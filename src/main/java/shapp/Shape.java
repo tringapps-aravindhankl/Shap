@@ -83,7 +83,7 @@ public class Shape
 	        Logger log=Logger.getLogger("hi");
 	        scan = new Scanner(System.in);
 	        do {
-	            System.out.println("Enter your option 1.Triangle 2.circle 3.Rectangle 4.Exit");
+	            log.info("Enter your option 1.Triangle 2.circle 3.Rectangle 4.Exit");
 	            option = scan.nextInt();
 	            if (option == 1) {
 	                log.info("ENTER WIDTH");
