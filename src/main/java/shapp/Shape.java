@@ -42,13 +42,13 @@ class Shap {
         else if ("Circle".equalsIgnoreCase(type)) {
             float area1 = radius * radius;
             area1 = area1 * 3.14f;
-            System.out.println("area of circle is" + area1);
+            log.info("area of circle is" + area1);
         }
 
         // rectangle
         else if ("ReCtangle".equalsIgnoreCase(type)) {
             float area2 = width * length;
-            System.out.println("area of rectangle is" + area2);
+            log.info("area of rectangle is" + area2);
         }
 
     }
@@ -57,19 +57,19 @@ class Shap {
         // rectangle
         if ("RectanGle".equalsIgnoreCase(type)) {
             double perimeter1 = 2 * length * width;
-            System.out.println("Perimeter of rectangle is" + perimeter1);
+            log.info("Perimeter of rectangle is" + perimeter1);
         }
 
         // circle
         else if ("cirCle".equalsIgnoreCase(type)) {
             double perimeter2 = 2 * 3.14f * radius;
-            System.out.println("Perimeter of circle is" + perimeter2);
+            log.info("Perimeter of circle is" + perimeter2);
         }
 
         // triangle
         else if ("TRIAnGLE".equalsIgnoreCase(type)) {
             double perimeter3 = width + length + length1;
-            System.out.println("Perimeter of trianlge is" + perimeter3);
+            log.info("Perimeter of trianlge is" + perimeter3);
         }
     }
 }
