@@ -85,31 +85,31 @@ public class Shape
 	            System.out.println("Enter your option 1.Triangle 2.circle 3.Rectangle 4.Exit");
 	            option = scan.nextInt();
 	            if (option == 1) {
-	                System.out.println("ENTER WIDTH");
+	                log.info("ENTER WIDTH");
 	                float width = scan.nextFloat();
-	                System.out.println("Enter length");
+	                log.info("Enter length");
 	                float length = scan.nextFloat();
-	                System.out.println("Enter length1");
+	                log.info("Enter length1");
 	                float length1 = scan.nextFloat();
 	                Shap a = new Shap("TRIANGLE", width, length, length1);
 	                a.area();
 	                a.perimeter();
 	            } else if (option == 2) {
-	                System.out.println("Enter radius");
+	                log.info("Enter radius");
 	                float rad = scan.nextFloat();
 	                Shap b = new Shap("circle", rad);
 	                b.area();
 	                b.perimeter();
 	            } else if (option == 3) {
-	                System.out.println("Enter width");
+	                log.info("Enter width");
 	                float width = scan.nextFloat();
-	                System.out.println("Enter length");
+	                log.info("Enter length");
 	                float length = scan.nextFloat();
 	                Shap c = new Shap("Rectangle", width, length);
 	                c.area();
 	                c.perimeter();
 	            }else if(option==4) {
-	            	System.out.println("Exit Successfully");
+	            	log.info("Exit Successfully");
 	            }
 	        } while (option < 4);
         
