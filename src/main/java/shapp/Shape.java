@@ -79,6 +79,7 @@ public class Shape
 	 private static Scanner scan;
 		public static void main( String[] args){
 	    	int option;
+		Logger log;
 	        Logger log=Logger.getLogger("hi");
 	        scan = new Scanner(System.in);
 	        do {
