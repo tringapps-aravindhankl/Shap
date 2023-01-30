@@ -80,7 +80,7 @@ public class Shape
 		public static void main( String[] args){
 	    	int option;
 		Logger log;
-	        Logger log=Logger.getLogger("hi");
+	        log=Logger.getLogger("hi");
 	        scan = new Scanner(System.in);
 	        do {
 	            log.info("Enter your option 1.Triangle 2.circle 3.Rectangle 4.Exit");
