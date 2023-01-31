@@ -1,6 +1,6 @@
 package shapp;
 import java.util.*;
-import java.util.logger.*;
+import java.util.logging.*;
 class Shap {
     float length;
     float width;
