@@ -100,9 +100,9 @@ public class Shape
 	            } else if (option == 2) {
 	                log.info("Enter radius");
 	                float rad = scan.nextFloat();
-	                Shap Circle = new Shap("circle", rad);
-	                Circle.area();
-	                Circle.perimeter();
+	                Shap cirle = new Shap("circle", rad);
+	                cirle.area();
+	                cirle.perimeter();
 	            } else if (option == 3) {
 	                log.info("Enter width");
 	                float width = scan.nextFloat();
