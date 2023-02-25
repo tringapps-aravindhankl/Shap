@@ -1,4 +1,4 @@
-package shape;
+package shapp;
 import java.util.*;
 import java.util.logging.*;
 class Shap {
@@ -34,21 +34,21 @@ class Shap {
         // triangle
         if ("TRIANGLe".equalsIgnoreCase(type)) {
             float area = width * length1;  
-            area = area / 2;
-            log.info("area of triangle is" + area);
+            float ans = area / 2;
+            log.log(Level.INFO,()->"Area of triangle is:)" + ans);
         }
 
         // circle
         else if ("Circle".equalsIgnoreCase(type)) {
             float area1 = radius * radius;
-            area1 = area1 * 3.14f;
-            log.info("area of circle is" + area1);
+            float answer = area1 * 3.14f;
+            log.log(Level.INFO,()->"area of circle is" + answer);
         }
 
         // rectangle
         else if ("ReCtangle".equalsIgnoreCase(type)) {
             float area2 = width * length1;
-            log.info("area of rectangle is" + area2);
+            log.log(Level.INFO,()->"area of rectangle is" + area2);
         }
 
     }
@@ -57,19 +57,19 @@ class Shap {
         // rectangle
         if ("RectanGle".equalsIgnoreCase(type)) {
             double perimeter1 = 2 * length1 * width;
-            log.info("Perimeter of rectangle is" + perimeter1);
+            log.log(Level.INFO,()->"Perimeter of rectangle is" + perimeter1);
         }
 
         // circle
         else if ("cirCle".equalsIgnoreCase(type)) {
             double perimeter2 = 2 * 3.14f * radius;
-            log.info("Perimeter of circle is" + perimeter2);
+            log.log(Level.INFO,()->"Perimeter of circle is" + perimeter2);
         }
 
         // triangle
         else if ("TRIAnGLE".equalsIgnoreCase(type)) {
             double perimeter3 = width + length1 + length2;
-            log.info("Perimeter of trianlge is" + perimeter3);
+            log.log(Level.INFO,()->"Perimeter of trianlge is" + perimeter3);
         }
     }
 }
