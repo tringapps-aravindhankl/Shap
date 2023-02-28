@@ -35,7 +35,7 @@ class Shap {
         if ("TRIANGLe".equalsIgnoreCase(type)) {
             float area = width * length1;  
             float ans = area / 2;
-            log.log(Level.INFO,()->"Area of triangle is:)" + ans1234);
+            log.log(Level.INFO,()->"Area of triangle is:)" + ans);
         }
 
         // circle
